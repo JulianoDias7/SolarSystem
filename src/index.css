@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -23,30 +23,3 @@ body {
 canvas {
   display: block;
 }
-
-span {
-  font-size: 1rem;
-}
-scrollbar-custom::-webkit-scrollbar {
-  width: 8px; /* Largura da barra de rolagem */
-}
-
-.scrollbar-custom::-webkit-scrollbar-track {
-  background: #2d2d2d; /* Cor do fundo da trilha da barra de rolagem */
-}
-
-.scrollbar-custom::-webkit-scrollbar-thumb {
-  background: #4a4a4a; /* Cor do polegar da barra de rolagem */
-  border-radius: 10px; /* Arredondar as bordas do polegar */
-}
-
-.scrollbar-custom::-webkit-scrollbar-thumb:hover {
-  background: #6a6a6a; /* Cor do polegar quando estiver em hover */
-}
-
-/* Estilizar a barra de rolagem para Firefox */
-.scrollbar-custom {
-  scrollbar-width: thin;
-  scrollbar-color: #4a4a4a #2d2d2d; /* Cor do polegar e da trilha */
-}
-
